@@ -17,7 +17,7 @@ A Vision Transformer (ViT) implementation with CUDA-accelerated custom GELU kern
 ---
 
 ## 📁 Project Structure
-
+```
 ViTransformer/
 │
 ├── notebook/
@@ -31,4 +31,4 @@ ViTransformer/
 ├── kernel/
 │ ├── gelu_cuda.cu # CUDA implementation of GELU activation
 │ └── setup.py # Extension building script
-
+```
